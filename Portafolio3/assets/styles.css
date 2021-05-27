@@ -1,0 +1,27 @@
+body {
+    overflow: hidden;
+}
+
+.imagen {
+    animation: movimiento 3s linear infinite;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.flotante {
+    width: 5%;
+}
+
+.container {
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.5);
+}
