@@ -1,5 +1,5 @@
 const typed = new Typed('#typed', {
-    strings: ['<i class="typed">Frontend developer</i>', '<i class="typed">Backend developer</i>', '<i class="typed">Fullstack developer</i>','<i class="typed">Mobile Developer</i>'],
+    strings: ['<i class="typed">Frontend developer</i>', '<i class="typed">Backend developer</i>', '<i class="typed">Fullstack developer</i>'],
     loop: true
 });
 
