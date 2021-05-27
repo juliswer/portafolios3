@@ -1,0 +1,34 @@
+.imagen {
+    animation: movimiento 3s linear infinite;
+}
+
+.typed {
+    color: crimson;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+@keyframes movimiento {
+    0%{
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.flotante {
+    width: 5%;
+}
+
+.container {
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.5);
+}
