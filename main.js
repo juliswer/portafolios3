@@ -1,6 +1,7 @@
 const typed = new Typed('#typed', {
     strings: ['<i class="typed">Frontend developer</i>', '<i class="typed">Backend developer</i>', '<i class="typed">Fullstack developer</i>'],
-    loop: true
+    loop: true,
+    typeSpeed: 60
 });
 
 particlesJS(
